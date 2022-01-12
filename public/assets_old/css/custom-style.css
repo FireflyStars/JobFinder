@@ -1,0 +1,21 @@
+.slider-height2{min-height:250px;}
+
+.jobSection {
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+} 
+
+.totalJobPrice {
+    font-weight: bold;
+}
+
+.company-img img {
+    width: 50px;
+}
+
+.items-link span {
+    text-align: center;
+}

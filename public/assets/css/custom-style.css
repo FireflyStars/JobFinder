@@ -1,0 +1,234 @@
+.slider-height2{min-height:250px;}
+
+.jobSection {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.totalJobPrice {
+    font-weight: bold;
+}
+
+.company-img img {
+    width: 50px;
+}
+
+.items-link span {
+    text-align: center;
+}
+.preview_box .panel{
+    border: #DCDCDC solid 2px;
+    border-radius: 8px;
+
+}
+
+.preview_box .panel .panel-header{
+    border-bottom: #DCDCDC solid 2px;
+    padding:2px 15px;
+}
+.preview_box .panel .panel-header h2{
+    font-family: 'Scheherazade New', serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0;
+}
+.preview_box .panel .panel-header p{
+    margin: 0 0;
+    font-size: 14px;
+}
+.preview_box .panel .panel-body{
+    padding: 15px;
+}
+.preview_right{
+    border: #DCDCDC solid 2px;
+    border-radius: 8px;
+}
+.preview_right .media{
+   padding: 10px;
+}
+
+.preview_right .media .media-body h5{
+    font-family: 'Scheherazade New', serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0;
+}
+.preview_right .media .media-body p{
+   color: #000;
+    font-size: 16px;
+    margin: 7px 0;
+}
+.preview_right .media .media-body p.text-main{
+   color: #ff790e;
+    font-size: 16px;
+    margin: 7px 0;
+}
+.preview_right .media .media-body p.text-main a{
+   color: #ff790e;
+}
+.company_dtl{
+    padding: 10px;
+    border-bottom: #DCDCDC solid 1px;
+}
+.job_extended_dtl{
+    padding: 10px;
+}
+
+.job_extended_dtl p{
+    color: #61647E;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.job_extended_dtl p strong{
+    color: #000;
+}
+.header_dropdown button, .header_dropdown.show button{
+    background-color: transparent !important;
+    color: #CDD0E9 !important;
+    font-size: 20px !important;
+    padding: 0 15px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.header_dropdown button:hover{
+    background-color: transparent !important;
+    color: #CDD0E9 ;
+}
+
+.header_dropdown button:before, .header_dropdown button:after{
+   display: none;
+}
+
+.header_dropdown .dropdown-menu{
+   padding: 10px;
+    border-radius: 6px;
+    min-width: 250px;
+
+}
+.header_dropdown .dropdown-menu.show{
+   right: 0 !important;
+    left: unset !important;
+    top: 10px !important;
+
+}
+
+.payment-box .card-body{
+    border: #DCDCDC solid 1px;
+    border-radius: 4px;
+}
+.payment-box h4{
+    color: #9C9FBE;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.payment-box button{
+    float: none !important;
+}
+
+.payment_option{
+    padding: 30px 15px 30px 0;
+    border-right: #DCDCDC  solid 1px;
+    margin: -15px 0;
+}
+.payment_option h4{
+    color: #9C9FBE;
+    font-weight: 400;
+    font-size: 18px;
+}
+.py_option{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: #DCDCDC  solid 1px;
+    border-radius: 4px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+.py_option span{
+   font-size: 16px;
+    color: #1C1D28;
+    margin: 0;
+    padding: 0 12px;
+}
+.py_option.active{
+   border-color: #29A387;
+}
+
+.py_option.active .ml-auto{
+   color: #29A387;
+}
+.job-tittle span{
+
+}
+.job-tittle span:nth-of-type(1){
+    color: #9C9FBE;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.job-tittle span:nth-of-type(2){
+    background: #29A387;
+    font-size: 12px;
+    font-weight: 300;
+    color: #FFF;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+
+.job-tittle span:nth-of-type(3){
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.job-tittle span:nth-of-type(4){
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.apply-btn2 a{
+    margin: 0 0;
+}
+.owl-item .job-tittle, .owl-item .company-img{
+    width: 100%;
+}
+.owl-item .job-tittle h4{
+    height: 20px;
+    overflow: hidden;
+}
+
+
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+
+    .modal .modal-dialog{
+        min-width: 500px;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#success_modal .modal-body h3{
+    font-family: 'Scheherazade New', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
